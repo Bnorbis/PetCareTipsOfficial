@@ -78,4 +78,20 @@ Juntos, criaram o PetCare Tips com a missão de tornar informações sobre cinof
 
 ### **Frontend**
 ```bash
+npm install
 npm run dev
+```
+
+### **Backend**
+```bash
+npm install
+npm start
+```
+
+### **Variáveis de ambiente necessárias**
+Crie um arquivo `.env` no backend contendo:
+```env
+MONGO_URI=<sua-string-de-conexao>
+JWT_SECRET=<chave-secreta>
+PORT=3000
+```
